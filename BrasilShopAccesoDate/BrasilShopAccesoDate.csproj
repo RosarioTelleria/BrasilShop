@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BrasilShopModels\BrasilShopModels.csproj" />
-    <ProjectReference Include="..\BrasilShopUtilidades\BrasilShopUtilidades.csproj" />
   </ItemGroup>
 
 </Project>

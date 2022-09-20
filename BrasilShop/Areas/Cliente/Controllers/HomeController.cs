@@ -1,5 +1,4 @@
-﻿
-using BrasilShop.Models;
+﻿using BrasilShopModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

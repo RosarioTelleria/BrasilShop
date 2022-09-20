@@ -1,4 +1,5 @@
-using BrasilShop.AccesoDate.Data;
+using BrasilShopAccesoDate.Data;
+using BrasilShopAccesoDate.Data.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +17,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
-
+builder.Services.AddScoped<IContenedorTrabajo, ContenedorTrabajo>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

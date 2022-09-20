@@ -1,5 +1,4 @@
-﻿using BrasilShop.AccesoDate.Data;
-using BrasilShopAccesoDate.Data.Repository;
+﻿using BrasilShopAccesoDate.Data.Repository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

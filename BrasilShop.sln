@@ -5,11 +5,16 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrasilShop", "BrasilShop\BrasilShop.csproj", "{6CC8B9B0-3590-47C7-9271-272BC5DCC299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrasilShopAccesoDate", "BrasilShopAccesoDate\BrasilShopAccesoDate.csproj", "{C0EE3DCE-32C5-4D64-8FDA-253384D800EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrasilShopAccesoDate", "BrasilShopAccesoDate\BrasilShopAccesoDate.csproj", "{C0EE3DCE-32C5-4D64-8FDA-253384D800EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrasilShopModels", "BrasilShopModels\BrasilShopModels.csproj", "{9F57F785-EEB9-49C9-AA89-9EF35711A183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrasilShopModels", "BrasilShopModels\BrasilShopModels.csproj", "{9F57F785-EEB9-49C9-AA89-9EF35711A183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrasilShopUtilidades", "BrasilShopUtilidades\BrasilShopUtilidades.csproj", "{D5B286C3-6347-4B26-B468-7735CBF036DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrasilShopUtilidades", "BrasilShopUtilidades\BrasilShopUtilidades.csproj", "{D5B286C3-6347-4B26-B468-7735CBF036DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2D990A8-30DA-4719-BD0D-5A01F4010561}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

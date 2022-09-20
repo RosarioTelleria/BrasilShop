@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using BrasilShopModels;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BrasilShop.AccesoDate.Data
+namespace BrasilShopAccesoDate.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -9,5 +10,6 @@ namespace BrasilShop.AccesoDate.Data
             : base(options)
         {
         }
+        public DbSet<Categoria> Categorias { get; set; }    
     }
 }
