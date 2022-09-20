@@ -1,4 +1,4 @@
-﻿using BrasilShopModels;
+﻿using BrasilShopModels.Model;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

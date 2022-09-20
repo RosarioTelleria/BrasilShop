@@ -1,4 +1,4 @@
-﻿using BrasilShopModels;
+﻿using BrasilShopModels.Model;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

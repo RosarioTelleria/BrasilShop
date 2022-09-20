@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrasilShopModels
+namespace BrasilShopModels.Model
 {
     public class ErrorViewModel
     {

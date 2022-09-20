@@ -1,6 +1,6 @@
 ﻿using BrasilShopAccesoDate.Data;
 using BrasilShopAccesoDate.Data.Repository;
-using BrasilShopModels;
+using BrasilShopModels.Model;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace BrasilShopAccesoDate.Data
 {
-   
+
     public class CategoriaRepository : Repository<Categoria>, ICategoriaRepository
     {
         private readonly ApplicationDbContext _db;
